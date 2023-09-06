@@ -19,6 +19,8 @@ kpk = kpk(m, n)
 # Menampilkan hasil perhitungan
 print("KPK dari", m, "dan", n, "yaitu", kpk)
 
+====================================================================================
+
 # Variabel Pada piring 1, piring 2 dan piring 3
 Piring1 = "Manggis"
 Piring2 = "Pisang"
@@ -55,6 +57,8 @@ print("Piring1:", Piring1)
 print("Piring2:", Piring2)
 print("Piring3:", Piring3)
 
+====================================================================================
+
 
 # Variabel Luas, Alas Dan Tinggi
 alas = 25
@@ -66,6 +70,7 @@ luas = (alas * tinggi) / 2
 # Menampilkan hasil
 print("Luas segitiga dengan alas", alas, "dan tinggi", tinggi, "adalah:", luas)
 
+====================================================================================
 
 # Variabel luas, panjang dan tinggi jajar genjang
 # Input nilai panjang dan tinggi
@@ -78,6 +83,7 @@ luas = (panjang * tinggi)
 # Menampilkan hasil luas jajar genjang
 print("luas jajar genjang dengan panjang", panjang, "tinggi", tinggi, "adalah", luas)
 
+====================================================================================
 
 # Variabel volume, jari-jari dan tinggi tabung
 # Input nilai jari-jari dan tinggi tabung
@@ -90,6 +96,7 @@ volume =  (3.14 * jari_jari * jari_jari * tinggi)
 # Menampilkan hasil volume tabung
 print("volume tabung:", volume)
 
+====================================================================================
 
 
 # Variabel volume, diameter dan tinggi kerucut
