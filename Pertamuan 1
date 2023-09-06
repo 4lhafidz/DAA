@@ -1,0 +1,108 @@
+# Variabel m dan n dengan nilai 3 dan 4
+# Input m dan n dengan nilai 3 dan 4
+def kpk(m, n):
+    if m > n:
+        terbesar = m
+    else:
+        terbesar = n
+ # Menghitung m dan n dengan mencari nilai terkecil
+    while True:
+        if terbesar % m == 0 and terbesar % n == 0:
+            kpk = terbesar
+            break
+        terbesar += 1
+    
+    return kpk
+m = 3
+n = 4
+kpk = kpk(m, n)
+# Menampilkan hasil perhitungan
+print("KPK dari", m, "dan", n, "yaitu", kpk)
+
+# Variabel Pada piring 1, piring 2 dan piring 3
+Piring1 = "Manggis"
+Piring2 = "Pisang"
+Piring3 = None
+
+# Tukar posisi Manggis dan Pisang
+# Simpan Manggis di Piring1
+Piring1 = "Manggis"
+
+# Simpan Pisang di Piring2
+Piring2 = "Pisang"
+
+# Kosongkan Piring1
+Piring1 = None
+
+# Pindahkan Manggis dari Piring1 ke Piring3
+Piring3 = "Manggis"
+Piring1 = None
+
+# Kosongkan Piring2
+Piring2 = None
+
+# Pindahkan Pisang dari Piring2 ke Piring1
+Piring1 = "Pisang"
+Piring2 = None
+
+# Pindahkan Manggis dari Piring3 ke Piring2
+Piring2 = "Manggis"
+Piring3 = None
+
+# Hasil akhir
+print("Hasil Akhir:")
+print("Piring1:", Piring1)
+print("Piring2:", Piring2)
+print("Piring3:", Piring3)
+
+
+# Variabel Luas, Alas Dan Tinggi
+alas = 25
+tinggi = 30
+
+# Menghitung luas segitiga
+luas = (alas * tinggi) / 2
+
+# Menampilkan hasil
+print("Luas segitiga dengan alas", alas, "dan tinggi", tinggi, "adalah:", luas)
+
+
+# Variabel luas, panjang dan tinggi jajar genjang
+# Input nilai panjang dan tinggi
+panjang = 5
+tinggi = 3
+
+# Menghitung luas jajar genjang
+luas = (panjang * tinggi) 
+
+# Menampilkan hasil luas jajar genjang
+print("luas jajar genjang dengan panjang", panjang, "tinggi", tinggi, "adalah", luas)
+
+
+# Variabel volume, jari-jari dan tinggi tabung
+# Input nilai jari-jari dan tinggi tabung
+jari_jari = 3
+tinggi = 5
+
+# Menghitung volume tabung
+volume =  (3.14 * jari_jari * jari_jari * tinggi)
+
+# Menampilkan hasil volume tabung
+print("volume tabung:", volume)
+
+
+
+# Variabel volume, diameter dan tinggi kerucut
+# Input volume, diameter dan tinggi
+diameter = 5
+tinggi = 4
+
+# Menghitung jari_jari kerucut
+jari_jari = diameter / 2
+
+# Menghitung volume kerucut
+volume = (1/3) * 3.14 * (jari_jari ** 2) * tinggi
+
+# Menampilkan hasil perhitungan
+print("volume kerucut adalah: ", volume)
+
